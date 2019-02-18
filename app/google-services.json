@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1030685823485",
+    "firebase_url": "https://myfirstapp-33105.firebaseio.com",
+    "project_id": "myfirstapp-33105",
+    "storage_bucket": "myfirstapp-33105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030685823485:android:ca37580969c9c500",
+        "android_client_info": {
+          "package_name": "com.example.ribes.anew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030685823485-8rpkditrmfet372tia75u6klu3crvc6i.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1030685823485-8rpkditrmfet372tia75u6klu3crvc6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhEKAcEW221S6YqgsayWnWpzTIh7jVFjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

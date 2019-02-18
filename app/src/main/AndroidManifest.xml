@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ribes.anew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="ACE Manager"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".Main" />
+
+        <receiver android:name=".AlarmReciever" />
+
+        <activity
+            android:name=".StudentActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Students"
+            android:launchMode="singleTask"
+            android:parentActivityName=".StudentActivity"
+            android:theme="@style/AppTheme.ABC">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StudentActivity" />
+        </activity>
+        <activity android:name=".Attendance" />
+        <activity android:name=".Routine" />
+        <activity android:name=".Home" />
+        <activity android:name=".Home2" />
+        <activity
+            android:name=".Planner.Main2Activity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Planner.DayDetail"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Planner.Day_main"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Planner.WeekActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".GraphActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".VerifyActivity" />
+        <activity android:name=".Detailed_page" />
+        <activity android:name=".AttendanceStatus" />
+        <activity android:name=".AttStudentStatus" android:theme="@style/AppTheme.ABC"></activity>
+        <activity android:name=".AdminDashboard"></activity>
+    </application>
+
+</manifest>

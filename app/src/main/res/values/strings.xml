@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">new</string>
+    <string name="welcome_to_my_app">Welcome to my app</string>
+    <string name="uname">Username</string>
+    <string name="psw">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="img1">Hat</string>
+    <string name="logo">Logo</string>
+    <string name="notuser">Not User? Register</string>
+
+
+    <string name="Back">Back</string>
+    <string name="Day">Day</string>
+    <string name="subject">Subject</string>
+    <string name="Time">Time</string>
+    <string name="Sun">Sun</string>
+    <string name="Embedded">Embedded</string>
+    <string name="economics">Economics</string>
+    <string name="time1">8:35-10:20</string>
+    <string name="time2">6:55-8:40</string>
+    <string name="time3">11:05-1:40</string>
+    <string name="lab">AL Lab/OS Lab</string>
+    <string name="mon">Mon</string>
+    <string name="ai">AI</string>
+    <string name="data">Database</string>
+    <string name="time4">11:05-12:50</string>
+    <string name="ooad">OOAD</string>
+    <string name="time5">12:45-2:30</string>
+    <string name="lab1">ES Lab/OOAD Lab</string>
+    <string name="time6">6:55-9:30</string>
+    <string name="os">OS</string>
+    <string name="time7">9:25-10:20</string>
+    <string name="time8">Minor/Dbms lab</string>
+    <string name="time9">11:05-2:30</string>
+    <string name="ait">AI(tutorial)</string>
+    <string name="time10">11:05-12:00</string>
+    <string name="time11">11:55-1:40</string>
+    <string name="Thur">Thurs</string>
+    <string name="wed">Wed</string>
+    <string name="Tues">Tues</string>
+    <string name="time12">6:55-10:20</string>
+    <string name="lab2">Minor/Database lab</string>
+    <string name="time13">11:05-12:50</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <string-array name="Despcription">
+        <item> Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+
+    <string-array name="Main">
+        <item> Study Planner </item>
+
+    </string-array>
+
+    <string-array name="Description1">
+        <item> View Study Planner </item>
+
+    </string-array>
+
+
+    <string-array name="Sunday">
+        <item>ES:Microprocessor interfacing</item>
+        <item>EE:Economic equivalence and Development of intrest formulas</item>
+        <item>Break</item>
+        <item>AI Lab - B1:Prolog / Os Lab - B2:Basic linux</item>
+
+    </string-array>
+
+    <string-array name="Monday">
+        <item>AI:Inference and reasoning</item>
+        <item>ES:Multilevel bus architecture</item>
+        <item>Break</item>
+        <item>DBMS:E-R diagram</item>
+        <item>OOAD:Use case diagram</item>
+
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>ES Lab - B1: VHDL or gate / OOAD Lab B2:Use case</item>
+        <item>Break</item>
+        <item>DBMS Lab B1:Table creation / Minor Project B2</item>
+
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item>EE:Replacement analysis </item>
+        <item>AI:Search techniques</item>
+        <item>Break</item>
+        <item>OS:Deadlock</item>
+
+    </string-array>
+
+    <string-array name="Thursday">
+        <item>Minor Project B1 / DBMS Lab B1:Table creation </item>
+        <item>Break</item>
+        <item>DBMS:Relational algebra</item>
+
+    </string-array>
+
+    <string-array name="Friday">
+        <item>ES:Intel 8051 microcontroller family</item>
+        <item>OS:Security</item>
+        <item>Break</item>
+        <item>OOAD:Mapping design</item>
+        <item>DBMS:Query operation</item>
+    </string-array>
+
+    <string-array name="time1">
+        <item>7:00AM - 8:40AM</item>
+        <item>8:40AM - 10:20AM</item>
+        <item>10:20AM - 11:10AM</item>
+        <item>11:10AM - 1:40PM</item>
+
+    </string-array>
+
+    <string-array name="time2">
+        <item>7:00AM - 8:40AM</item>
+        <item>8:40AM - 10:20AM</item>
+        <item>10:20AM - 11:10AM</item>
+        <item>11:10AM - 12:50PM</item>
+        <item>12:50PM - 2:30PM</item>
+
+    </string-array>
+
+    <string-array name="time3">
+        <item>7:00AM - 9:30AM</item>
+        <item>9:30AM - 10:20AM</item>
+        <item>10:20AM - 1:40pm</item>
+
+    </string-array>
+
+    <string-array name="time4">
+        <item>7:00AM - 8:50AM</item>
+        <item>8:50AM - 10:20AM</item>
+        <item>10:20AM - 11:10AM</item>
+        <item>11:10AM - 12:50PM</item>
+
+    </string-array>
+
+    <string-array name="time5">
+        <item>7:00AM - 10:20AM</item>
+        <item>10:20AM - 11:10AM</item>
+        <item>11:10AM - 12:50PM</item>
+
+    </string-array>
+
+    <string-array name="time6">
+        <item>7:00AM - 8:40AM</item>
+        <item>8:40AM - 10:20AM</item>
+        <item>10:20AM - 11:10AM</item>
+        <item>11:10AM - 12:50PM</item>
+        <item>12:50PM - 2:30PM</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item> Sunday </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+
+    </string-array>
+
+    <string name="transition_string">hello</string>
+
+</resources>
